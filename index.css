@@ -1,0 +1,315 @@
+        * {
+            margin: 0;
+            padding: 0;
+        }
+
+        body {
+            background-color: rgb(3, 3, 49);
+            color: white;
+        }
+
+        nav {
+            display: flex;
+            justify-content: space-around;
+            align-items: center;
+            background-color: rgb(15, 15, 77);
+            height: 70px;
+        }
+
+        .left {
+            font-size: 1.3rem;
+        }
+
+        nav ul {
+            display: flex;
+            justify-content: center;
+        }
+
+        nav ul li {
+            list-style: none;
+            margin: 0px 23px;
+        }
+
+        nav ul li a {
+            text-decoration: none;
+            color: white;
+        }
+
+        nav ul li a:hover {
+            color: rgb(207, 207, 235);
+            font-size: 1.2rem;
+
+        }
+
+        .firstsec {
+            display: flex;
+            justify-content: space-around;
+            margin: 79px 0px;
+            align-items: center;
+        }
+
+        .firstsec>div {
+            /* background-color: red; */
+            width: 30%;
+        }
+
+        .ls {
+            font-size: 3rem;
+        }
+
+        .btn {
+            padding: 13px;
+            margin-top: 35px;
+            background-color: black;
+            color: white;
+            border: 1px solid white;
+            border-radius: 10px;
+            font-size: 20px;
+            cursor: pointer;
+        }
+
+        button:hover {
+            background-color: white;
+            color: black;
+        }
+
+        .rs img {
+            width: 60%;
+            height: 57vh;
+            border-radius: 50%
+        }
+
+        .prpl {
+
+            color: blueviolet;
+        }
+
+        #element {
+            color: blueviolet;
+
+        }
+
+        .abt {
+            display: flex;
+            justify-content: space-between;
+        }
+
+        .about-sec h1 {
+            margin: 55px 135px;
+            font-size: 2.2rem;
+        }
+
+        .abt-dis {
+            /* margin: 30px 431px 177px 250px; */
+            margin: 30px 231px 20px 250px;
+            font-size: 1.2rem;
+            word-spacing: 15px;
+        }
+
+        .abt-img {
+
+            border-radius: 50%;
+            width: 15vw;
+            height: 50vh;
+            margin-right: 240px;
+            margin-bottom: 55px;
+        }
+
+
+        .con-sec {
+
+            margin: 10px 10px 0px 10px;
+        }
+
+        .form {
+            /* margin: 100px 50px;
+            text-align: center; */
+            margin: 75px 43px;
+            display: flex;
+            flex-direction: column;
+            color: #f3f3f3;
+            font-weight: 300;
+        }
+
+        .h h1 {
+            text-align: center
+        }
+
+        form {
+            background: linear-gradient(135deg, rgba(161, 198, 215, 0.5), rgba(110, 105, 116, 0.7));
+            margin: 20px 500px 0px 500px;
+            /* background: linear-gradient(135deg,skyblue,blueviolet); */
+            /* font-size: 200; */
+            padding: 20px;
+
+        }
+
+        form input {
+
+            /* font-size: 20px; */
+            padding: 2px;
+            width: 283px;
+            margin-bottom: 5px;
+            background-color: black;
+            color: white;
+
+        }
+
+        form label {
+
+            font-size: 25px;
+            padding-bottom: 20px;
+        }
+        #isclient{
+            width: 20px;
+        }
+
+        .helpemail {
+            font-size: 10px;
+            color: rgb(194, 180, 207);
+        }
+
+        /* form label .isclient{
+            font-size: 10px;
+        } */
+        form .chk {
+            font-size: 15px;
+            padding-left: 15px;
+
+        }
+
+
+        .project {
+
+            margin: 30px;
+        }
+
+        .project h1 {
+            margin: 20px;
+            padding: 10px;
+            font-weight: bold;
+            text-align: center;
+        }
+
+        .pro1 h3 {
+            margin: 20px;
+        }
+
+        .pro1 {
+
+            margin-left: 30px;
+        }
+
+        .p-img {
+            width: 200px;
+            height: 200px;
+            margin-left: 600px;
+            margin-top: 30px;
+            margin-bottom: 30px;
+        }
+
+        pre {
+            padding: 10px;
+            font-size: 15px;
+            /* margin-right: 800px; */
+            word-wrap: break-word;
+            word-spacing: 2px;
+        }
+
+.sk-h{
+    margin: 60px;
+}
+
+        .skillcontainer{
+            margin: 80px;
+            padding: 10px;
+            margin-bottom: 250px;
+
+        
+        }
+        .skillitem{
+            display: flex;
+            /* flex-direction: row; */
+
+            /* padding-right: 200px; */
+            
+           
+            align-items: center;
+            margin: 10px;
+        }
+        .skill{
+            background-color: red;
+            width: 230px;
+            height: 6px;
+            
+            /* border:ipx solid black; */
+        }
+        .hundred{
+            background-color: red;
+            width: 220px;
+        }
+        .eighty{
+            background-color: rgb(143, 95, 22);
+            width: 175px;
+
+        }
+        .fifty{
+            background-color: yellow;
+            width: 175px;
+        }
+        .t5{
+            background-color: rgb(28, 28, 212);
+            width: 100px;
+        }
+        
+        .skillc{
+            border: 1px solid rgb(236, 237, 236);
+            margin-left: 30px;
+            width: 20%;
+        }
+
+
+
+
+
+
+
+
+
+
+        footer {
+            background-color: rgb(7, 7, 33);
+            /* height: 160px; */
+        }
+
+        .footer {
+            display: flex;
+            justify-content: space-evenly;
+            padding: 20px 20px;
+        }
+
+        .footer>div {
+            margin: 30px;
+        }
+
+        footer .text-cen {
+            text-align: center;
+            color: gray;
+            margin-top: -14px;
+            font-size: 0.7rem;
+
+        }
+
+        .f-img {
+
+            height: 2.0vh;
+            margin-right: 5px;
+            /* padding-top: 10px; */
+        }
+
+        .f-a {
+            text-decoration: none;
+            color: white;
+            padding-bottom: 20px;
+            font-size: 0.5rem;
+        }
